@@ -7,6 +7,8 @@ import Properties from '../../pages/Properties/Properties';
 import About from '../../pages/About';
 import Head from '../../components/Head/Head';
 
+import ContactWsp from '../../components/ButtonContact/Fab'
+
 const Layout = () => {
   return (
     <div className="relative mt-16 xl:mt-24 overflow-hidden w-100 bg-white">
@@ -23,6 +25,7 @@ const Layout = () => {
       <Properties/>
       {/* <Property/> */}
       <About/>
+      <ContactWsp/>
       {/* FOOTER PAGE */}
       <Footer />    
     </div>
