@@ -43,7 +43,7 @@ const AboutComponent = () => {
                               <img
                                 src={item.img}
                                 alt="slide-1"
-                                className="rounded-full h-[200px] w-[200px] mt-10 mx-14 md:mx-2 xl:w-[400px] xl:h-[400px] xl:mt-20 xl:mx-2"
+                                className="rounded-full h-[200px] w-[200px] mt-10 mx-14 md:mx-2 xl:w-[380px] xl:h-[380px] xl:mt-20 xl:mx-2"
                               />
                             </div>
                         ) : null}
